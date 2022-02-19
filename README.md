@@ -20,7 +20,7 @@ Depending on the choice of tree inference method you might need to download
 [PhyML](http://www.atgc-montpellier.fr/phyml/download.php) (for ML method) and/or [ninja](https://wheelerlab.org/software/ninja/) (for NJ method).
 
 ### Usage
-To perform the simulation you should run *paralsim.py*. 
+To perform simulations, run *paralsim.py*. 
 
 Example usage: Simulate phylogenetic networks with numbers of leaves from {20, 40, 60} and numbers of reticulations from {4, 8}.
 Simulate 100 networks for each parameter set and 1 gene tree per network. Use neighbour-joining method (recommended for large datasets) and the recommended biological parameters. Use 5 cores.
